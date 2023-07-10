@@ -1,0 +1,68 @@
+body {
+    background-color: rgb(18, 213, 213);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.most-outer {
+    background-color: white;
+    border-radius: 10px;
+    height: 60%;
+    width: 80%;
+    padding: 30px 0 0 70px;
+    display: flex;
+}
+
+.outer-shield {
+    border-radius: 10px;
+    border: solid;
+    height: 90%;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.bottom-button {
+    height: 20%;
+    width: 80%;
+    position: relative;
+    left: 70px;
+    display: block;
+}
+
+.front-inner {
+    width: 80%;
+    height: 75%;
+    position: relative;
+    left: 70px;
+    
+}
+
+span.focus-color,
+span:active {
+    background-color: orange ;
+}
+
+
+.front-inner p {
+
+    border: 1px solid #333333;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+
+}
+
+p{
+    padding: 10px 20px 0 20px;
+}
+
+.mistake{
+    list-style: none;
+    display: inline-block;
+    width: 300px;
+}
